@@ -1,0 +1,28 @@
+@keyframes anime {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity:9px;
+    }
+}
+@keyframes slide{
+    from{
+        margin-right: -1000px;
+    }
+    to{
+        margin-right:0;
+    }
+}
+.dark{
+    background-image: radial-gradient(rgb(43, 38, 38),rgb(50, 50, 50),rgb(68, 67, 67));
+}
+*{
+    @apply transition-colors ease-linear duration-100
+}
+
+
+
+
+
+
